@@ -1,0 +1,333 @@
+/* ============================================================
+   Vansiwala Dresses — Premium Theme
+   Deep royal maroon / gold / cream devotional aesthetic
+   ============================================================ */
+
+:root {
+  --maroon: #6e1423;
+  --maroon-deep: #4a0e18;
+  --maroon-dark: #33080f;
+  --gold: #c9a24b;
+  --gold-light: #e8c87a;
+  --gold-pale: #f6e6c2;
+  --cream: #faf4e8;
+  --cream-dark: #f1e6cf;
+  --ink: #2b1b14;
+  --ink-soft: #6b5647;
+  --green-wa: #25d366;
+  --green-wa-dark: #1eb857;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jost", "Mukta", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-devanagari {
+  font-family: "Tiro Devanagari Hindi", "Mukta", serif;
+}
+
+/* ---------- Gold gradient text ---------- */
+.text-gold-gradient {
+  background: linear-gradient(120deg, #b8862d, #f5d98a 45%, #caa04d 75%, #f0d088);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ---------- Buttons ---------- */
+.btn-gold {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(120deg, #b8862d, #d4af37 55%, #e8c87a);
+  color: #3c2603;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  box-shadow: 0 10px 24px -10px rgba(201, 162, 75, 0.7);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.06);
+  box-shadow: 0 16px 32px -12px rgba(201, 162, 75, 0.85);
+}
+
+.btn-wa {
+  background: linear-gradient(120deg, #1eb857, #25d366 60%, #3ee679);
+  color: #0b3a1c;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  box-shadow: 0 10px 24px -12px rgba(37, 211, 102, 0.7);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+.btn-wa:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+  box-shadow: 0 16px 32px -12px rgba(37, 211, 102, 0.85);
+}
+
+.btn-ghost-gold {
+  border: 1px solid rgba(201, 162, 75, 0.7);
+  color: var(--gold-light);
+  transition: all 0.25s ease;
+}
+.btn-ghost-gold:hover {
+  background: rgba(201, 162, 75, 0.12);
+  border-color: var(--gold-light);
+  transform: translateY(-2px);
+}
+
+/* ---------- Announcement marquee ---------- */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee 30s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ---------- Hero ---------- */
+@keyframes auraPulse {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 0.9; transform: scale(1.08); }
+}
+.aura {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  pointer-events: none;
+  animation: auraPulse 9s ease-in-out infinite;
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  12% { opacity: 0.9; }
+  85% { opacity: 0.6; }
+  100% { transform: translateY(-110vh) translateX(30px); opacity: 0; }
+}
+.particle {
+  position: absolute;
+  bottom: -20px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, #ffe9ad, rgba(255, 233, 173, 0));
+  pointer-events: none;
+  animation: floatUp linear infinite;
+}
+
+@keyframes glowBorder {
+  0%, 100% { box-shadow: 0 0 0 1px rgba(201,162,75,.35), 0 0 40px -8px rgba(201,162,75,.45); }
+  50% { box-shadow: 0 0 0 1px rgba(201,162,75,.7), 0 0 70px -6px rgba(230,200,122,.7); }
+}
+.hero-ornament {
+  animation: glowBorder 6s ease-in-out infinite;
+}
+
+@keyframes shimmerLine {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer-line {
+  background: linear-gradient(90deg, transparent, #e8c87a 30%, #fff3d6 50%, #e8c87a 70%, transparent);
+  background-size: 200% 100%;
+  animation: shimmerLine 4s linear infinite;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up {
+  animation: fadeUp 0.7s ease both;
+}
+
+/* ---------- Product cards ---------- */
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(18px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.product-card {
+  animation: cardIn 0.5s ease both;
+}
+
+.card-media {
+  transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.product-card:hover .card-media {
+  transform: scale(1.07);
+}
+
+.card-glow {
+  transition: box-shadow 0.35s ease, transform 0.35s ease;
+}
+.card-glow:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px -18px rgba(74, 14, 24, 0.4);
+}
+
+/* ---------- Warranty tag ---------- */
+@keyframes tagPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 162, 75, 0.55); }
+  50% { box-shadow: 0 0 0 5px rgba(201, 162, 75, 0); }
+}
+.warranty-tag {
+  animation: tagPulse 2.4s ease-out infinite;
+}
+
+/* ---------- Section ornament divider ---------- */
+.ornament-divider {
+  position: relative;
+  text-align: center;
+}
+.ornament-divider::before,
+.ornament-divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 90px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold));
+}
+.ornament-divider::before { left: calc(50% + 44px); }
+.ornament-divider::after { right: calc(50% + 44px); background: linear-gradient(270deg, transparent, var(--gold)); }
+
+/* ---------- Floating WhatsApp button ---------- */
+@keyframes waPulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.55); }
+  70% { box-shadow: 0 0 0 16px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+.wa-float {
+  animation: waPulse 2.2s ease-out infinite;
+}
+
+/* ---------- Sticky header ---------- */
+.site-header {
+  transition: background-color 0.35s ease, box-shadow 0.35s ease, backdrop-filter 0.35s ease;
+}
+.site-header.scrolled {
+  background: rgba(74, 14, 24, 0.92);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- Filter chips ---------- */
+.chip {
+  transition: all 0.25s ease;
+}
+.chip.active {
+  background: linear-gradient(120deg, #b8862d, #d4af37);
+  color: #3c2603;
+  border-color: transparent;
+}
+
+/* ---------- Reveal on scroll ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Toast ---------- */
+#toast {
+  transition: transform 0.4s cubic-bezier(0.2, 0.9, 0.3, 1.2), opacity 0.4s ease;
+}
+#toast.show {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
+/* ---------- Scrollbar (webkit) ---------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--cream-dark); }
+::-webkit-scrollbar-thumb { background: linear-gradient(var(--gold), #a37c2f); border-radius: 8px; }
+
+/* ---------- Category banner images (fixed ratio) ---------- */
+.img-ratio {
+  aspect-ratio: 4 / 5;
+}
+.img-ratio-wide {
+  aspect-ratio: 16 / 10;
+}
+
+/* ---------- Hidden edit mode (#edit) ---------- */
+.edit-mode .card-media {
+  outline: 1px dashed rgba(201, 162, 75, 0.6);
+  outline-offset: -2px;
+}
+
+#edit-badge {
+  position: fixed;
+  top: 76px;
+  right: 14px;
+  z-index: 60;
+  background: #e8630c;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  padding: 6px 10px;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px -6px rgba(232, 99, 12, 0.6);
+  animation: tagPulse 2s ease-out infinite;
+}
+
+#edit-bar {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: calc(100% - 24px);
+  max-width: 520px;
+  background: #33080f;
+  border: 1px solid rgba(201, 162, 75, 0.55);
+  border-radius: 18px;
+  padding: 12px 12px 12px 16px;
+  box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.6);
+}
+
+#edit-bar #edit-exit {
+  background: rgba(201, 162, 75, 0.12);
+  border: 1px solid rgba(201, 162, 75, 0.6);
+  color: #e8c87a;
+}
+#edit-bar #edit-exit:hover {
+  background: rgba(201, 162, 75, 0.22);
+}
+
+#edit-bar #edit-save {
+  font-size: 12px;
+}
+#edit-bar #edit-save:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.edit-panel input,
+.edit-panel select {
+  color: #2b1b14;
+}
+.edit-panel input:focus,
+.edit-panel select:focus {
+  box-shadow: 0 0 0 3px rgba(201, 162, 75, 0.25);
+}

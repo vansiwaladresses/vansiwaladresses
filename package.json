@@ -1,0 +1,16 @@
+{
+  "name": "vansiwala-dresses",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vansiwala Dresses - handcrafted poshak e-commerce site",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i assets/css/input.css -o assets/css/site.css --minify",
+    "dev": "npx @tailwindcss/cli -i assets/css/input.css -o assets/css/site.css --watch",
+    "start": "/usr/bin/python3 tools/server.py",
+    "generate": "/usr/bin/python3 tools/generate_products.py"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
