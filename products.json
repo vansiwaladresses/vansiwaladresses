@@ -14,7 +14,7 @@
     },
     {
       "id": "khatu-shyam",
-      "name": "Khatu Shyam Ji Outfits"
+      "name": "Khatu Shyam / Mata Rani"
     },
     {
       "id": "accessories",
@@ -1649,6 +1649,254 @@
       "price": 100,
       "image": "FFA146CA-CBB4-4D64-9AF0-2FBD4896B80A.JPG",
       "warranty": false
+    },
+    {
+      "id": 204,
+      "name": "Handmade Special Net Poshak (Size 5,6,7 no Bal Gopal )",
+      "category": "handmade-special",
+      "price": 200,
+      "image": "IMG_0845.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 205,
+      "name": "Handmade Special Poshak (New Arrival) (Size 7 - 10 no Bal Gopal )",
+      "category": "handmade-special",
+      "price": 200,
+      "image": "IMG_0848.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 206,
+      "name": "Handmade Special Silk Poshak (Size No- 5,6 bal gopal dress",
+      "category": "handmade-special",
+      "price": 150,
+      "image": "IMG_0850.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 207,
+      "name": "Handmade Special Silk Poshak (New Arrival)(Size No-7 - 10 )bal gopal poshak",
+      "category": "handmade-special",
+      "price": 250,
+      "image": "IMG_0852.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 208,
+      "name": "Handmade Special Silk Poshak (Size No 5,6,7 bal gopal ",
+      "category": "handmade-special",
+      "price": 160,
+      "image": "IMG_0854.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 209,
+      "name": "Handmade Special netPoshak (Size No--5,6,7 bal gopal poshak",
+      "category": "handmade-special",
+      "price": 160,
+      "image": "IMG_0855.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 210,
+      "name": "Handmade Special Cotten Poshak (Size No--5,6 bal gopal poshak",
+      "category": "handmade-special",
+      "price": 150,
+      "image": "IMG_0857.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 211,
+      "name": "Handmade Special Silk Poshak (Size No--5,6,7 bal gopal poshak",
+      "category": "handmade-special",
+      "price": 180,
+      "image": "IMG_0860.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 212,
+      "name": "Handmade Special Silk Poshak (Size No-- 5,6,7 bal gopal poshak",
+      "category": "handmade-special",
+      "price": 180,
+      "image": "IMG_0861.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 213,
+      "name": "Handmade Special Velvet Poshak (Size No-- 5,6,7,8 bal gopal poshak",
+      "category": "handmade-special",
+      "price": 230,
+      "image": "IMG_0864.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 214,
+      "name": "Handmade Special Net Poshak (Size No--5,6)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 120,
+      "image": "IMG_0866.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 215,
+      "name": "Handmade Special Silk Poshak (Size No--5,6,7)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 200,
+      "image": "IMG_0868.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 217,
+      "name": "Handmade Special Silk Poshak (Size No--5,6,7)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 200,
+      "image": "IMG_0870.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 219,
+      "name": "Handmade Special Silk Poshak Size No 5,6,7)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 150,
+      "image": "IMG_0872.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 221,
+      "name": "Handmade Special Cotton Poshak (Size No--4,5,6)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 150,
+      "image": "IMG_0874.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 223,
+      "name": "Handmade Special Cotton Poshak (Size No-3,4)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 120,
+      "image": "IMG_0876.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 224,
+      "name": "Handmade Special Velvet Poshak (New Arrival) (Size No-3,4)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 140,
+      "image": "IMG_0877.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 226,
+      "name": "Handmade Special Silk Poshak Size No--3,4)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 140,
+      "image": "IMG_0879.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 228,
+      "name": "Handmade Special  Velvet Poshak (Size No--3,4,5)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 160,
+      "image": "IMG_0882.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 229,
+      "name": "Handmade Special Silk Poshak (Size No--3,4)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 130,
+      "image": "IMG_0884.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 230,
+      "name": "Handmade Special Velvet Poshak (Size No--3,4)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 140,
+      "image": "IMG_0886.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 231,
+      "name": "Handmade Special Silk Poshak (Size No--3,4)bal gopal poshak",
+      "category": "handmade-special",
+      "price": 140,
+      "image": "IMG_0888.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 232,
+      "name": "Handmade Special Velvet Poshak (SIze No 3,4)velvet bal gopal poshak",
+      "category": "handmade-special",
+      "price": 160,
+      "image": "IMG_0890.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 233,
+      "name": "Handmade Special Poshak (Size No--3,4,5)silk bal gopal poshak",
+      "category": "handmade-special",
+      "price": 140,
+      "image": "IMG_0892.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 234,
+      "name": "Handmade Special Poshak (Size No--3,4)silk bal gopal poshak",
+      "category": "handmade-special",
+      "price": 130,
+      "image": "IMG_0894.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 235,
+      "name": "Handmade Special Khatu Shyam Net  poshak (Size No--3,4)",
+      "category": "khatu-shyam",
+      "price": 100,
+      "image": "IMG_0898.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 236,
+      "name": "Handmade Special Poshak (New Arrival)",
+      "category": "khatu-shyam",
+      "price": 100,
+      "image": "IMG_0901.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 237,
+      "name": "Mata Rani Handmade Special Poshak (New Arrival)",
+      "category": "khatu-shyam",
+      "price": 200,
+      "image": "IMG_0902.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 238,
+      "name": "Mata Rani Handmade Special Poshak (New Arrival)",
+      "category": "khatu-shyam",
+      "price": 200,
+      "image": "IMG_0905.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 239,
+      "name": "Mata Rani Handmade Special Poshak (New Arrival)",
+      "category": "khatu-shyam",
+      "price": 150,
+      "image": "IMG_0907.jpeg",
+      "warranty": true
+    },
+    {
+      "id": 240,
+      "name": "Mata Rani Handmade Special Poshak (New Arrival)",
+      "category": "khatu-shyam",
+      "price": 120,
+      "image": "IMG_0909.jpeg",
+      "warranty": true
     }
   ]
 }
